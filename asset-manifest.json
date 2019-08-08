@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/boardgame-scoretracker/static/css/main.ab7ba21f.chunk.css",
+    "main.js": "/boardgame-scoretracker/static/js/main.5246062b.chunk.js",
+    "main.js.map": "/boardgame-scoretracker/static/js/main.5246062b.chunk.js.map",
+    "runtime~main.js": "/boardgame-scoretracker/static/js/runtime~main.a986adb3.js",
+    "runtime~main.js.map": "/boardgame-scoretracker/static/js/runtime~main.a986adb3.js.map",
+    "static/js/2.a68ccf2f.chunk.js": "/boardgame-scoretracker/static/js/2.a68ccf2f.chunk.js",
+    "static/js/2.a68ccf2f.chunk.js.map": "/boardgame-scoretracker/static/js/2.a68ccf2f.chunk.js.map",
+    "index.html": "/boardgame-scoretracker/index.html",
+    "precache-manifest.047353d16ffd4d20ac73d31b37418a76.js": "/boardgame-scoretracker/precache-manifest.047353d16ffd4d20ac73d31b37418a76.js",
+    "service-worker.js": "/boardgame-scoretracker/service-worker.js",
+    "static/css/main.ab7ba21f.chunk.css.map": "/boardgame-scoretracker/static/css/main.ab7ba21f.chunk.css.map",
+    "static/media/hakseity.jpg": "/boardgame-scoretracker/static/media/hakseity.e0e558cd.jpg",
+    "static/media/life.png": "/boardgame-scoretracker/static/media/life.262d8f47.png",
+    "static/media/mastery.png": "/boardgame-scoretracker/static/media/mastery.0671567e.png"
+  }
+}
