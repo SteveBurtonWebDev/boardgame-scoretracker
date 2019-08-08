@@ -1,0 +1,183 @@
+.player {
+    border: 5px solid #081818;
+    border: 10px solid #e4ba5e;
+    border-radius: 5px 5px;
+    margin: 5vh auto;
+    width: 90vw;
+    height: 90vh; 
+    display: flex;
+    flex-direction: row;
+}
+
+.player img {
+    width: 50%;
+}
+
+.player .playerDetails {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.playerDetails .lifeBox {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #0c363c;
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(rgb(18, 75, 69), rgb(65, 180, 175));
+    background-size: cover;
+}    
+
+.playerDetails .lifeBox img {
+    width: 100%;
+    height: 80%;
+}    
+
+.playerDetails .lifeBox .lifeUpdater {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}    
+
+.playerDetails .lifeUpdater .addLifeButton {
+    height: 100%;
+    width: 20%;
+    background-image: url(./images/uparrow.png), linear-gradient(rgb(24, 68, 37), rgb(79, 141, 102));
+    background-position: center; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 4px 4px;
+}    
+
+.playerDetails .lifeUpdater h3 {
+    text-align: center;
+    color: #f8faf7;
+    text-shadow: 3px 3px #0c363c;
+    font-size: 4em;
+}    
+
+
+
+
+.playerDetails .lifeUpdater .minusLifeButton {
+    height: 100%;
+    width: 20%;
+    background-image: url(./images/downarrow.png), linear-gradient(rgb(61, 0, 0), rgb(179, 59, 46));
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+.playerDetails .powerBox {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #0c363c;
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(rgb(18, 75, 69), rgb(65, 180, 175));
+    background-size: cover;
+}
+
+.playerDetails .powerBox img {
+    width: 100%;
+    height: 80%;
+}
+
+.playerDetails .powerBox .powerUpdater {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.playerDetails .powerUpdater .addPowerButton {
+    height: 100%;
+    width: 20%;
+    background-image: url(./images/uparrow.png), linear-gradient(rgb(24, 68, 37), rgb(79, 141, 102));
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 4px 4px;
+}
+
+.playerDetails .powerUpdater h3 {
+    width: 30%;
+    text-align: center;
+    text-shadow: 3px 3px #0c363c;
+    font-size: 4em;
+    color: #f8faf7;
+}
+
+
+.playerDetails .powerUpdater .minusPowerButton {
+    height: 100%;
+    width: 20%;
+    background-image: url(./images/downarrow.png), linear-gradient(rgb(61, 0, 0), rgb(179, 59, 46));
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: red;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .playerDetails .lifeUpdater h3 {
+        font-size: 1.8em;
+    }
+
+    .playerDetails .powerUpdater h3 {
+        font-size: 1.8em;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .playerDetails .lifeUpdater h3 {
+        font-size: 1.8em;
+    }
+
+    .playerDetails .powerUpdater h3 {
+        font-size: 1.8em;
+    }
+
+    .player {
+        width: 90vw;
+        height: 90vh;
+        margin: calc(10vh / 2) auto;
+        flex-direction: column;
+    }
+
+    
+    .player img {
+        width: 100%;
+        height: 70%;
+    }
+
+    .player .playerDetails {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+    }
+
+   .playerDetails .lifeBox {
+        height: 100%;
+    }
+
+   .playerDetails .powerBox {  
+        height: 100%;
+    }
+}
+
